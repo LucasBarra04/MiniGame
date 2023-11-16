@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game{
+    width: 100%;
+    height: 100vh;
+    border-bottom: 30px solid green;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(aqua, white);
+}
+
+button{
+    background: green;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: none;
+    padding: 1rem;
+    position: absolute;
+    right: 50vw;
+    top: 50vh;
+    cursor: pointer;
+    z-index: 1;
+}
+button:hover{
+    border: 2px solid green;
+    background: none;
+    color: green;
+}
