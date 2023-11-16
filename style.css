@@ -53,3 +53,22 @@ button:hover{
     margin-top: 15rem;
 }
 
+.pipe {
+    position: absolute;
+    bottom: 0;
+    right: -80px;
+    width: 80px;
+}
+
+.mario{
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+}
+
+.cloud {
+    width: 550px;
+    position: absolute;
+    top: 0;
+    animation: clouds-animation 20s infinite linear;
+}
